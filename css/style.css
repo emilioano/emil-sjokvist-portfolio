@@ -69,8 +69,8 @@ footer {
     background-color: hsl(154 50% 5%);
     color: hsl(154 84% 70%);
     text-shadow: 0 0 5px hsl(154 84% 70%);
-    border-left: 1px;
-    border-right: 1px;
+    border-left: 0px;
+    border-right: 0px;
     border-top: 0px;
     border-bottom: 1px;
     border-color: #00ff3c;
@@ -92,7 +92,7 @@ footer {
     border-style: solid;
     margin-bottom: 0px;
     padding: 0px;
-    font-size: 15px;
+    font-size: 16px;
     font-family: "Share Tech Mono", "VT323", "Fira Code", monospace;
     min-width: max-content;
   }  
@@ -103,7 +103,7 @@ footer {
     padding-bottom: 0px;
     margin-bottom: 0px;
     line-height: 1;
-    font-size: 15px;
+    font-size: 16px;
     color: hsl(154 84% 70%);
 
     background: linear-gradient(
@@ -127,30 +127,30 @@ footer {
 }
 
 #section1 {
-    font-size: 20px;
-    color: #74ad19;
+    font-size: 18px;
+    color: #4c9243;
     margin-bottom: 50px;
 }
 
 #section2 p:nth-child(1) {
-    font-size: 20px;
-    color: rgb(116, 65, 17);
+    font-size: 18px;
+    color: rgb(98, 79, 66);
     margin-bottom: 50px;
 }
 
 #section2 p:nth-child(2) {
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(221, 82, 100);
     margin-bottom: 50px;
 }
 
 #section2 div {
     border: 0px;
-    padding: 20px;
+    padding: 16px;
 }
 
 #section3 {
-    font-size: 20px;
+    font-size: 22px;
     font-family: "DM Sans", monospace;
     font-weight: 200;
     padding: 15px;
@@ -164,7 +164,7 @@ footer {
 }
 
 #section4 {
-    padding: 20px;
+    padding: 18px;
     align-items: center;
 }
 
@@ -179,7 +179,7 @@ footer {
 */
 
 #section4 p {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 50px;
     margin-top: 0px;
 }
@@ -244,35 +244,6 @@ footer {
 }
 
 
-
-
-
-/* Popping text */
-/*
-.popping-content {
-  display: flex;
-  justify-content: center;
-  --color-primary: #f6aca2;
-  --color-secondary: #f49b90;
-  --color-tertiary: #f28b7d;
-  --color-quaternary: #f07a6a;
-  --color-quinary: #ee6352;
-}
-
-.text-shadows {
-  text-shadow: 5px 5px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
-    9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
-  font-family: "Sniglet", "Share Tech Mono", "VT323", "Fira Code", monospace;
-  font-weight: 800;
-  font-size: calc(5rem + 5vw);
-  margin: 0;
-  color: var(--color-primary);
-  animation: shadows 1.2s ease-in infinite;
-  letter-spacing: 0.8rem;
-}
-*/
-/* Popping text */
-
 .popping-content {
     display: flex;
     justify-content: center;
@@ -312,58 +283,6 @@ footer {
     }
 }
 
-/* 
-@keyframes shadows {
-  0% {
-    text-shadow: none;
-  }
-  10% {
-    transform: translate(-3px, -3px);
-    text-shadow: 3px 3px 0 var(--color-secondary);
-  }
-  20% {
-    transform: translate(-6px, -6px);
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary);
-  }
-  30% {
-    transform: translate(-9px, -9px);
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
-  }
-  40% {
-    transform: translate(-12px, -12px);
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
-      12px 12px 0 var(--color-quinary);
-  }
-  50% {
-    transform: translate(-12px, -12px);
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
-      12px 12px 0 var(--color-quinary);
-  }
-  60% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary),
-      12px 12px 0 var(--color-quinary);
-  }
-  70% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary), 9px 9px var(--color-quaternary);
-  }
-  80% {
-    text-shadow: 3px 3px 0 var(--color-secondary),
-      6px 6px 0 var(--color-tertiary);
-  }
-  90% {
-    text-shadow: 3px 3px 0 var(--color-secondary);
-  }
-  100% {
-    text-shadow: none;
-  }
-}
-*/
 .readme-wrapper {
     position: relative;
 }
