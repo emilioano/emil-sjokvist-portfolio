@@ -387,6 +387,7 @@ footer {
     border-top: 0px;
     border-bottom: 0px; 
     width: 90%;
+    min-width: max-content;
     margin: 0px;
     padding: 50px;
     margin: 0px;
@@ -398,7 +399,3 @@ footer {
     justify-content: space-evenly;
     opacity: 0.9;
 }
-
-img {
-    animation: 3s infinite alternate slide-in;
-  }
