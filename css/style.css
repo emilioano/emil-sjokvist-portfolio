@@ -258,6 +258,7 @@ footer {
     letter-spacing: 0.8rem;
     color: #f6aca2;
     animation: pop 1.6s ease-in infinite;
+    z-index: 9999;
 }
 
 @keyframes pop {
@@ -377,3 +378,27 @@ footer {
     min-width: max-content;
   }
   
+
+  .gradient-section {
+    background: #ED600E;
+    background: linear-gradient(270deg, rgba(237, 96, 14, 1) 0%, rgba(237, 221, 83, 1) 50%, rgba(237, 96, 14, 1) 100%);    
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px; 
+    width: 90%;
+    margin: 0px;
+    padding: 50px;
+    margin: 0px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+    opacity: 0.9;
+}
+
+img {
+    animation: 3s infinite alternate slide-in;
+  }
