@@ -308,12 +308,34 @@ footer {
     border-radius: 15px;
 }
 
+.emilbook-container {
+    display: block;
+    margin: 16px;
+    padding: 16px;
+    height: 600px;
+    width: 90%;
+    min-width: 600px;
+    justify-content: center;
+    overflow-y: auto;
+    overflow-x: auto;
+    border: 1px solid #00ff3c33;
+    background: hsl(154 50% 2%);
+    scrollbar-width: thin;
+    scrollbar-color: #00ff3c44 transparent;
+    font-family: "Fira Code", monospace;
+    font-size: 13px;
+    line-height: 1.7;
+    color: hsl(154 60% 65%);
+    opacity: 70%;
+    border-radius: 15px;
+}
+
 
 .project-card {
     margin-bottom: 100px;
 }
 
-.project-header, .project-tag, .project-github-link {
+.project-header, .project-tag, .project-github-link, .link {
     font-family: "Share Tech Mono", "VT323", "Fira Code", monospace;
     color: #5bf062d7;
     font-size: 15px;
