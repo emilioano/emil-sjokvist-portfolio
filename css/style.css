@@ -145,7 +145,7 @@ footer {
     width: fit-content;
     margin: 2rem auto;
     display: block;
-    border: double 5px;
+    border: double 4px;
     border-color: #00ff55;
     border-radius: 15px;
     padding: 0px;
@@ -160,7 +160,7 @@ footer {
 .pink-subtitle {
     font-family: 'Caveat', cursive;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 700;
     color: rgb(255, 0, 170);
     text-shadow: 0 0 20px var(--pink-glow);
     transform: rotate(-2.5deg);
@@ -170,7 +170,7 @@ footer {
   .green-subtitle {
     font-family: 'Caveat', cursive;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 700;
     color: rgb(0, 255, 21);
     text-shadow: 0 0 20px var(--pink-glow);
     transform: rotate(-2.5deg);
@@ -180,7 +180,7 @@ footer {
   .yellow-subtitle {
     font-family: 'Caveat', cursive;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 700;
     color: rgb(255, 136, 0);
     text-shadow: 0 0 20px var(--pink-glow);
     transform: rotate(-2.5deg);
