@@ -138,6 +138,54 @@ footer {
     margin-bottom: 50px;
 }
 
+#program-process {
+    background-color :#27412d;
+    opacity: 0.8;
+    font-size: 20px;
+    width: fit-content;
+    margin: 2rem auto;
+    display: block;
+    border: double 5px;
+    border-color: #00ff55;
+    border-radius: 15px;
+}
+
+#program-process pre {
+    display: inline-block;
+    text-align: left;
+    padding: 50px;
+}
+
+.pink-subtitle {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 0, 170);
+    text-shadow: 0 0 20px var(--pink-glow);
+    transform: rotate(-2.5deg);
+    display: inline-block;
+  }
+
+  .green-subtitle {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 255, 21);
+    text-shadow: 0 0 20px var(--pink-glow);
+    transform: rotate(-2.5deg);
+    display: inline-block;
+  }
+  
+  .yellow-subtitle {
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 136, 0);
+    text-shadow: 0 0 20px var(--pink-glow);
+    transform: rotate(-2.5deg);
+    display: inline-block;
+  }
+
 #section2 p:nth-child(2) {
     font-size: 18px;
     color: rgb(221, 82, 100);
